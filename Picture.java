@@ -98,7 +98,8 @@ public class Picture
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
-        sun.changeColor("black");
+        sun.changeColor("white");
+        guy.changeColor("white");
         ground.changeColor("black");
     }
 
@@ -108,10 +109,11 @@ public class Picture
     public void setColor()
     {
         sky.changeColor("blue");
-        wall.changeColor("red");
+        wall.changeColor("yellow");
         window.changeColor("black");
-        roof.changeColor("green");
-        sun.changeColor("yellow");
+        roof.changeColor("red");
+        sun.changeColor("white");
+        guy.changeColor("black");
         ground.changeColor("green");
     }
 }
