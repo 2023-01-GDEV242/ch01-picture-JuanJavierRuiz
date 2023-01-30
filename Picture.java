@@ -47,6 +47,7 @@ public class Picture
             sky.changeSize(510);
             sky.makeVisible();
             
+            wall.changeColor("yellow");
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
             wall.changeSize(120);
@@ -58,12 +59,13 @@ public class Picture
             window.changeSize(40);
             window.makeVisible();
     
+            roof.changeColor("red");
             roof.changeSize(60, 180);
             roof.moveHorizontal(20);
             roof.moveVertical(-60);
             roof.makeVisible();
     
-            sun.changeColor("yellow");
+            sun.changeColor("white");
             sun.moveHorizontal(100);
             sun.moveVertical(-40);
             sun.changeSize(80);
@@ -78,9 +80,9 @@ public class Picture
             drawn = true;
             
             guy.changeColor("black");
-            guy.moveHorizontal(20);
-            guy.moveVertical(20);
-            guy.changeSize(20,10);
+            guy.moveHorizontal(30);
+            guy.moveVertical(18);
+            guy.changeSize(60,30);
             guy.makeVisible();
             drawn = true;
             
