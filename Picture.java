@@ -42,9 +42,9 @@ public class Picture
     {
         if(!drawn) {
             sky.changeColor("blue");
-            sky.moveHorizontal(50);
-            sky.moveVertical(50);
-            sky.changeSize(100);
+            sky.moveHorizontal(-320);
+            sky.moveVertical(-320);
+            sky.changeSize(510);
             sky.makeVisible();
             
             wall.moveHorizontal(-140);
@@ -71,9 +71,9 @@ public class Picture
             drawn = true;
             
             ground.changeColor("green");
-            ground.moveHorizontal(50);
-            ground.moveVertical(-40);
-            ground.changeSize(80);
+            ground.moveHorizontal(-320);
+            ground.moveVertical(130);
+            ground.changeSize(510);
             ground.makeVisible();
             drawn = true;
             
