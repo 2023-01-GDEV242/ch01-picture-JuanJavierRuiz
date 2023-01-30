@@ -94,12 +94,12 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        sky.changeColor("black");
+        sky.changeColor("white");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
-        sun.changeColor("white");
-        guy.changeColor("white");
+        sun.changeColor("black");
+        guy.changeColor("black");
         ground.changeColor("black");
     }
 
