@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private Square ground;
+    private Square sky;
     private Person guy;
     private boolean drawn;
 
@@ -29,6 +30,7 @@ public class Picture
         roof = new Triangle();  
         sun = new Circle();
         ground = new Square();
+        sky = new Square();
         guy = new Person();
         drawn = false;
     }
@@ -39,6 +41,12 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
+            sky.changeColor("blue");
+            sky.moveHorizontal(50);
+            sky.moveVertical(50);
+            sky.changeSize(100);
+            sky.makeVisible();
+            
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
             wall.changeSize(120);
@@ -84,6 +92,7 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
+        sky.changeColor("black");
         wall.changeColor("black");
         window.changeColor("white");
         roof.changeColor("black");
@@ -96,6 +105,7 @@ public class Picture
      */
     public void setColor()
     {
+        sky.changeColor("blue");
         wall.changeColor("red");
         window.changeColor("black");
         roof.changeColor("green");
